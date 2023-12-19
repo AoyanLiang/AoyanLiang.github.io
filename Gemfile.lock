@@ -287,7 +287,6 @@ DEPENDENCIES
   hawkins
   jekyll-feed
   jekyll-sitemap
-  public_suffix (= 4.0.7)
   webrick (~> 1.7)
 
 BUNDLED WITH
