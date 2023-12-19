@@ -9,6 +9,8 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
+gem 'public_suffix', '4.0.7'
+
 gem "github-pages", group: :jekyll_plugins
 
 gem 'webrick', '~> 1.7'
