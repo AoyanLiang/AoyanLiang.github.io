@@ -70,7 +70,7 @@
   height: 200px;      /* Fixed height for all images */
   width: auto;        /* Auto width to maintain aspect ratio */
   max-width: 100%;    /* Ensures the image doesn’t exceed the container's width */
-  object-fit: cover;  /* Ensures the image covers the area, might crop the image */
+  object-fit: scale-down;  /* Ensures the image covers the area, might crop the image */
 }
 
 .archive__item-image-in-post img {
