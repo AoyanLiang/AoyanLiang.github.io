@@ -217,7 +217,9 @@
   }
 
   li {
-    white-space: nowrap;
+    /*white-space: wrap;*/
+    white-space: normal;
+    word-wrap: break-word;
   }
 
   a {

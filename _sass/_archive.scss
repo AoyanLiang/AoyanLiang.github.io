@@ -66,6 +66,28 @@
   }
 }
 
+.archive__item-image {
+  max-width: 70%;      /* maximum width of the image as a percentage of its container */
+  height: auto;        /* maintain the aspect ratio of the image */
+  display: block;
+  margin: 0 auto;   /* Center the image */
+}
+
+@media (max-width: 600px) {
+  .archive__item-image img {
+    max-width: 100%;
+  }
+}
+
+.archive__item-citation {
+  margin-top: 15;
+  font-size: $type-size-6;
+
+  & + p {
+    text-indent: 0;
+  }
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
