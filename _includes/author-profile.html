@@ -5,7 +5,18 @@
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person">
-
+  <script>
+    function playAudio() {
+      var audio = document.getElementById("myAudio");
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+        audio.currentTime = 0; // Optional: Reset the audio to the start if paused
+      }
+    }
+  </script>
+  
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
@@ -128,15 +139,5 @@
 {% endif %}
     </ul>
   </div>
-  <script>
-  function playAudio() {
-    var audio = document.getElementById("myAudio");
-    if (audio.paused) {
-      audio.play();
-    } else {
-      audio.pause();
-      audio.currentTime = 0; // Optional: Reset the audio to the start if paused
-    }
-  }
-    </script>
+  
 </div>
