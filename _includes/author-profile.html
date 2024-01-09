@@ -5,17 +5,6 @@
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person">
-  <script>
-    function playAudio() {
-      var audio = document.getElementById("myAudio");
-      if (audio.paused) {
-        audio.play();
-      } else {
-        audio.pause();
-        audio.currentTime = 0; // Optional: Reset the audio to the start if paused
-      }
-    }
-  </script>
   
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
@@ -32,7 +21,7 @@
     <i class="fas fa-volume-up" onclick="playAudio()" style="cursor: pointer; font-size: 15px; color: #13aebc;"></i>
     <!-- Audio Element -->
     <audio id="myAudio">
-    <source src="/files/name_pronunciation.mp3" type="audio/mpeg">
+    <source src="{{ base_path }}/files/name_pronunciation.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
     </audio>
     {% if author.bio %}<p class="author__bio">{{ author.bio| newline_to_br }}</p>{% endif %}
@@ -139,5 +128,18 @@
 {% endif %}
     </ul>
   </div>
-  
+</div>
+
+<div>
+<script>
+  function playAudio() {
+    var audio = document.getElementById("myAudio");
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+      audio.currentTime = 0; // Optional: Reset the audio to the start if paused
+    }
+  }
+</script>
 </div>
