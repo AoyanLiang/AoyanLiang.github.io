@@ -13,7 +13,7 @@ name                     : &name "Aoyan Liang"
 description              : &description "Aoyan's Academic Website"
 #url                      : ""
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "AoyanLiang/AoyanLiang.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,6 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Aoyan Liang"
+  pronunciation    : "/aʊjæn lia̯ŋ/"
   avatar           : "profile_photo.JPG"
   bio              : "Ph.D. in Materials Science\nM.S. in Computer Science"
   location         : "Los Angeles, US"
