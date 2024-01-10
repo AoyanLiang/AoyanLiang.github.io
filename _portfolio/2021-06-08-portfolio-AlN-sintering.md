@@ -1,7 +1,8 @@
 ---
-title: "Compression"
+title: "earlier"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/movies/mmm.gif'>"
 collection: portfolio
+date: 2021-06-08
 ---
 
 <div class="gif-container">
