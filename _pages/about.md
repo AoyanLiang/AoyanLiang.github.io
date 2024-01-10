@@ -13,7 +13,7 @@ redirect_from:
 
 👨‍🎓 Currently, I'm part of [Prof. Paulo Branicio's research lab](https://branicio.usc.edu/) at USC, where I am involved in several innovative projects, including: 
 
-- **High Entropy Alloy Films Microstructure Formation:** This project involves a combination of Molecular Dynamics (MD) simulations, Molecular Statics calculations, (both using LAMMPS) and high-throughput experiments. Our goal is to unravel the composition-structure-property relationships in high entropy alloy films, focusing on those prepared through Physical Vapor Deposition (PVD).
+- **High Entropy Alloy Films Microstructure Formation:** This project involves a combination of Molecular Dynamics (MD) simulations, Molecular Statics calculations (both using LAMMPS), and high-throughput experiments. Our goal is to unravel the composition-structure-property relationships in high entropy alloy films, focusing on those prepared through Physical Vapor Deposition (PVD).
 
 - **Energy Landscapes for Disordered Materials:** Utilizing the Activation Relaxation Technique (ART), this study aims to explore the energy landscapes of metallic glasses, particularly focusing on how heat treatment influences activation processes.
 
@@ -23,7 +23,7 @@ redirect_from:
 
 Each project is a step towards advancing our understanding of materials science through innovative computational algorithms and methods.
 
-😃 Feel free to explore my website to learn more about my work. I'm always open to discussions and collaborations, so don't hesitate to reach out if you have any questions or ideas to share!
+😃 Feel free to explore my website to learn more about my work. I'm always open to discussions and collaborations, so don't hesitate to comment or reach out if you have any questions or ideas to share!
 
 
 
