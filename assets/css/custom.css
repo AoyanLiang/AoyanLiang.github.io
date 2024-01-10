@@ -2,3 +2,24 @@
 .email-icon {
     color: blue !important;
   }
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gif {
+  flex: 1; /* Each gif takes up equal space */
+  padding: 5px; /* Optional: adds some space between the gifs */
+}
+
+.gif img {
+  width: 100%; /* Make the gif scale to the width of its container */
+  height: auto; /* Keep the aspect ratio of the gif */
+}
+
+@media (max-width: 600px) { /* Adjust the max-width as needed */
+  .gif-container {
+    flex-direction: column;
+  }
+}
