@@ -1,17 +1,15 @@
 ---
-title: "earlier"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/movies/mmm.gif'>"
+title: "Molecular Dynamics Simulations of Hot-press Sintering for AlN Nanoceramics"
+#excerpt: "Short description of portfolio item number 1<br/><img src='/images/movies/mmm.gif'>"
 collection: portfolio
 date: 2021-06-08
 ---
 
-<div class="gif-container">
-  <div class="gif">
-    <img src="/images/movies/mm.gif" alt="First GIF">
-  </div>
-  <div class="gif">
-    <img src="/images/movies/mmm.gif" alt="Second GIF">
-  </div>
-</div>
+<video src="{{ base_path }}/images/movies/AlN-8.mp4" controls="controls" style="max-width: 700px;">
+</video>
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+<video muted="" autoplay="autoplay" controls="controls">
+  <source src="{{ base_path }}/images/movies/AlN-8.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
