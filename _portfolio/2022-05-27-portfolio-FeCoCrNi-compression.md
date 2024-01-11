@@ -1,9 +1,9 @@
 ---
-title: "new"
-excerpt: "Not bad"
-custom_gif_display: true
-gif1: "/images/movies/mm.gif"
-gif2: "/images/movies/mmm.gif"
+title: ""
+excerpt: ""
+custom_gif_display: 
+video1: 
+video2: 
 collection: portfolio
 date: 2022-05-27
 ---

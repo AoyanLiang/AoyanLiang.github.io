@@ -45,16 +45,14 @@
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-        {% if post.custom_gif_display %}
-            <!-- Custom HTML for displaying GIFs -->
-            <div class="gif-container">
-                <div class="gif">
-                    <img src="{{ post.gif1 }}" alt="Custom GIF 1">
-                </div>
-                <div class="gif">
-                    <img src="{{ post.gif2 }}" alt="Custom GIF 2">
-                </div>
-            </div>
+        {% if post.custom_video_display %}
+          <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+          <div class="video-container">
+              <video src="{{ post.video1 }}" controls="controls">
+              </video>
+              <video src="{{ post.video2 }}" controls="controls">
+              </video>
+          </div>
         {% else %}
             <!-- Standard excerpt display -->
             <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>

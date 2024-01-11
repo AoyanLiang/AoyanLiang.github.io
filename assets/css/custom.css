@@ -23,3 +23,26 @@
     flex-direction: column;
   }
 }
+
+@media (width: 600px) {
+  .video-container {
+    flex-direction: column;
+  }
+
+  .video-container video {
+    max-width: 100%; /* Videos take full width on small screens */
+  }
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.video-container video {
+  flex: 1;
+  max-width: calc(50% - 20px); /* Adjust width to account for the gap */
+  width: 100%;
+}
+

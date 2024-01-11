@@ -1,15 +1,22 @@
 ---
-title: "Molecular Dynamics Simulations of Hot-press Sintering for AlN Nanoceramics"
-#excerpt: "Short description of portfolio item number 1<br/><img src='/images/movies/mmm.gif'>"
+title: "Hot-Press Sintering: Microstructural Evolution in AlN Nanoceramics"
+excerpt: "Discover the impact of particle size on the sintering process of AlN nanoceramics, comparing the microstructural evolution in particles of 8 nm and 16 nm diameters."
+custom_video_display: true
+video1: "/images/movies/AlN-8.mp4"
+video2: "/images/movies/AlN-16.mp4"
 collection: portfolio
 date: 2021-06-08
 ---
 
-<video src="{{ base_path }}/images/movies/AlN-8.mp4" controls="controls" style="max-width: 700px;">
-</video>
+In this comparative study, we delve into the fascinating process of hot-press sintering for aluminum nitride (AlN) nanoceramics. By examining two distinct particle sizes, we uncover the subtle yet crucial differences in microstructural evolution. Witness these changes firsthand through our simulation videos:
 
-<video muted="" autoplay="autoplay" controls="controls">
-  <source src="{{ base_path }}/images/movies/AlN-8.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="video-container">
+  <video src="{{ page.video1 }}" controls="controls">
+    Your browser does not support the video tag.
+  </video>
+  <video src="{{ page.video2 }}" controls="controls">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
+On the left, observe the sintering dynamics of smaller AlN particles with a diameter of 8 nm. Contrast this with the sintering behavior of larger AlN particles, 16 nm in diameter, shown on the right. These visualizations not only provide insights into the sintering process at the nanoscale but also highlight the influence of particle size on the densification and microstructural properties of the ceramics.
