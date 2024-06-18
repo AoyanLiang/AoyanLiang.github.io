@@ -1,6 +1,6 @@
 ---
 title: "Deciphering Hot-press Sintering Process of AlN Nanoceramics "
-excerpt: "Explore our research on the densification process and microstructural evolution of AlN nanoceramics during hot-press sintering, where molecular dynamics simulations reveal the intricate effects of temperature, pressure, and particle size."
+excerpt: "Explore our research on the densification process and microstructural evolution of AlN nanoceramics during hot-press sintering, where molecular dynamics simulations reveal the intricate effects of temperature, pressure, and particle size"
 custom_video_display: true
 video1: "/images/movies/AlN-8.mp4"
 video2: "/images/movies/AlN-16.mp4"
