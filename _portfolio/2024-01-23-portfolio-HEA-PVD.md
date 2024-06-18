@@ -1,6 +1,6 @@
 ---
 title: "Unveiling Phase Formation in High Entropy Alloys During Physical Vapor Deposition"
-excerpt: "Exploring the transition from FCC to amorphous phases in high entropy alloys with varying atomic size differences."
+excerpt: "Exploring the transition from FCC to amorphous phases in high entropy alloys with varying atomic size differences"
 custom_video_display: true
 video1: "/images/movies/HEA-Ti05.mp4"
 video2: "/images/movies/HEA-Ti25.mp4"
