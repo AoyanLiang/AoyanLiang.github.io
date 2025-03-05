@@ -1,5 +1,5 @@
 ---
-title: "Colloid Transport in Bicontinuous Nanoporous Media"
+title: "Colloid transport in bicontinuous nanoporous media"
 collection: publications
 permalink: /publication/2024-05-17-paper-colloid-transport-BNP
 excerpt: "None"
