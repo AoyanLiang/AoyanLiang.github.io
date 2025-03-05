@@ -50,8 +50,9 @@
           <div class="video-container">
               <video src="{{ post.video1 }}" controls="controls">
               </video>
-              <video src="{{ post.video2 }}" controls="controls">
-              </video>
+              {% if post.video2 %}
+                  <video src="{{ post.video2 }}" controls="controls"></video>
+              {% endif %}
           </div>
         {% else %}
             <!-- Standard excerpt display -->
